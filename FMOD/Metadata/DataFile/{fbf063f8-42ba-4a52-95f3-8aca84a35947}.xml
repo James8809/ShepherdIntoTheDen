@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="DataFile" id="{fbf063f8-42ba-4a52-95f3-8aca84a35947}">
+		<property name="assetPath">
+			<value>Sound/Enemies/mushroom alert/original/.DS_Store</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3125f4ee-1f57-437b-8fd4-4d1e93032126}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,29 @@
+{c291b44c-60aa-454d-aad6-f5abfe7eb27f} bank:/BGM
+{b8c33a24-e322-4e4c-89bc-008ab0bd7e1a} bank:/Master
+{20de1af0-9259-020e-0ff5-8a74414e7882} bank:/Master.strings
+{b853dee1-cb54-4d82-a9e6-ab17b67c9720} bus:/
+{14bfedec-c4e9-4f6f-a4c2-0e2d1656bba3} bus:/BGM
+{ef98cacf-60f1-4220-9147-97c8226fd28f} bus:/Reverb
+{a6cd1392-1ea5-4138-99ce-ec5eabd83351} event:/Ambience/Campfire
+{b693035e-e8b2-4266-abac-53747c79e4d0} event:/BGM/Forest BGM
+{7a6774f0-5dc9-4f46-8916-8dd062420328} event:/BGM/Forest Music
+{7deadf23-d47d-42c2-8a6a-62d4a12c4142} event:/BGM/Title Music
+{3ee51172-18ae-4276-b31b-533738af9ef1} event:/Combat/Death
+{c6c109ea-3c10-481f-b16c-7ea0e997dc17} event:/Combat/Hit
+{b6584cda-89c4-492d-84ce-01103dff048e} event:/Combat/Roll
+{8e2fa6b4-6ddc-42f3-a705-b35df67880e7} event:/Combat/Swing
+{8a1fd207-9cb1-46e6-b659-3a0b67b8537c} event:/Door/Cage Door/DoorUnlock
+{b0aa045a-8bdd-43fd-88f8-b690c2c502ba} event:/Door/Portal/PortalDoorOpen
+{175295f1-01df-4669-b7a5-58c605c8faae} event:/Enemy/Mushroom/Alert/MushroomAlert1
+{f70264e1-7a67-4b4d-9800-37a51426c71e} event:/Enemy/Mushroom/Alert/MushroomAlert2
+{5e959033-5f7a-4ef4-b88e-62b5eff44ba7} event:/Enemy/Mushroom/Alert/MushroomAlert3
+{73522978-2ca3-45f6-90b7-2ad6dffce881} event:/Enemy/Mushroom/Attack/MushroomAttack1
+{b5e91afc-bed5-436e-822d-f9576ef2f471} event:/Enemy/Mushroom/Attack/MushroomAttack2
+{5f996034-d46d-4922-9afd-0d3858dcb585} event:/Enemy/Mushroom/Charge/MushroomCharge1
+{be395916-c661-4435-8e8f-6a9abab4d414} event:/Enemy/Mushroom/Charge/MushroomCharge2
+{f700e401-1c94-4ed5-87b8-c275f93be2f9} event:/Enemy/Mushroom/Death/MushroomDeath
+{bcec264d-46ea-4ccb-b257-7507da5d70df} event:/Enemy/Mushroom/Explosion/MushroomExplosion1
+{b0127b6f-9595-4a5c-857d-fdf33f057757} event:/Enemy/Mushroom/Explosion/MushroomExplosion2
+{fba4ab18-f1a2-4a1c-aed6-12e11513124f} event:/Enemy/Slime/Attack/SlimeAttack
+{53dc789e-7794-4e81-ad19-0422478b6199} event:/Player/Footsteps
+{ae5debb2-d0a6-4bb1-b3e6-0e41e7a5a192} event:/Sheep/Herd Charge/HerdCharge1

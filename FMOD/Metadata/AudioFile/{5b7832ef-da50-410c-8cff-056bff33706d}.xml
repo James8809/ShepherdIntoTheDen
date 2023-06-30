@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{5b7832ef-da50-410c-8cff-056bff33706d}">
+		<property name="assetPath">
+			<value>Sound/Doors/zapsplat_multimedia_game_sound_bright_gain_star_award_002_40513.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.8480000000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3125f4ee-1f57-437b-8fd4-4d1e93032126}</destination>
+		</relationship>
+	</object>
+</objects>

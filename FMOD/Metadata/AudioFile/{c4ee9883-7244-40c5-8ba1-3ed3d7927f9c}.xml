@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{c4ee9883-7244-40c5-8ba1-3ed3d7927f9c}">
+		<property name="assetPath">
+			<value>Sound/Combat/roll/roll1.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>25.770666666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3125f4ee-1f57-437b-8fd4-4d1e93032126}</destination>
+		</relationship>
+	</object>
+</objects>

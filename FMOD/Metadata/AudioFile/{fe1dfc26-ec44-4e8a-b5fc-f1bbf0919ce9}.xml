@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{fe1dfc26-ec44-4e8a-b5fc-f1bbf0919ce9}">
+		<property name="assetPath">
+			<value>Sound/Combat/StompAbility/stomp_cartoon.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.6763945578231292</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3125f4ee-1f57-437b-8fd4-4d1e93032126}</destination>
+		</relationship>
+	</object>
+</objects>

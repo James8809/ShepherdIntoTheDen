@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bef828771006bb41b7bbb7bc3d6e102, type: 3}
+  m_Name: Sheep's Crook
+  m_EditorClassIdentifier: 
+  itemName: Sheep's Crook
+  icon: {fileID: 21300000, guid: 1d8f5bfd1be684b4fb848c705bfcc1b0, type: 3}
+  description: Crafted by goddess Osiria herself in order to perish great evils when
+    the time comes.  Its the best weapon in this game with a whooping 25 dmg! It
+    also grant you the HERD ability to command sheeps!
+  CraftRecipe:
+  - item: {fileID: 11400000, guid: de40b44fdd674cd4c9d7143a456249e8, type: 2}
+    amount: 3
+  - item: {fileID: 11400000, guid: 22e62e9ff64e2c047a5f4c0284c7d027, type: 2}
+    amount: 2
+  - item: {fileID: 11400000, guid: 887598e5f60036249b39ab78aed05da0, type: 2}
+    amount: 2
+  - item: {fileID: 11400000, guid: c71cace5958f5ba41bbd9c83a382ac29, type: 2}
+    amount: 2
+  - item: {fileID: 11400000, guid: 4d5da8964e1f04849b5deaa20341113e, type: 2}
+    amount: 1
+  ability: 1
+  abilityObj: {fileID: 11400000, guid: f5fe3651edef6974ab10f0895a724713, type: 2}

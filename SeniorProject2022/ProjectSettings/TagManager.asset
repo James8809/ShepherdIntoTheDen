@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - PlayerWeapon
+  - sheep
+  - Enemy
+  - Destination
+  - InventoryUI
+  - FxTemporaire
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - PlayerWeapon
+  - Enemy
+  - PlayerHurtbox
+  - EnemyHitbox
+  - EnemyHurtbox
+  - PlayerTriggerDetector
+  - Triggers
+  - Terrain
+  - Collectables
+  - Bomb
+  - grass
+  - 
+  - 
+  - deathCamera
+  - playerCamera
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Fog
+    uniqueID: 1262521483
+    locked: 0

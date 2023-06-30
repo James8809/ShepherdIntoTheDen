@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EventFolder" id="{ad2cecc3-4d01-41fa-9fc1-bf578652f856}">
+		<property name="name">
+			<value>Giant Mushroom</value>
+		</property>
+		<relationship name="folder">
+			<destination>{233b9418-8ff3-43e1-be16-05166dc104ae}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f121db5db1c1e648b425a1414f1b990, type: 3}
+  m_Name: ManaPotion
+  m_EditorClassIdentifier: 
+  itemName: Mana Potion
+  icon: {fileID: 21300000, guid: 403006ff1db8c724c9c8de68042b1b8f, type: 3}
+  description: This bluey stuff makes you strong!!!! Basically refills 100 of your
+    mana bar just like it suggest in the name.
+  CraftRecipe:
+  - item: {fileID: 11400000, guid: 96e51c44668975a48803f1bca7038bed, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: 718b812c977bb0f43af736c5553cb12d, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: 718b812c977bb0f43af736c5553cb12d, type: 2}
+    amount: 1
+  statType: 4
+  value: 100
+  duration: -1
+  statIcon: {fileID: 0}
+  circleIconColor: {r: 0, g: 0, b: 0, a: 0}

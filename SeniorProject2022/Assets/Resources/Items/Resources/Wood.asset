@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba1fd1935c59ee142aeed6f7ff8d328e, type: 3}
+  m_Name: Wood
+  m_EditorClassIdentifier: 
+  itemName: Wood
+  icon: {fileID: 21300000, guid: cc8557de677da73439b5cf8471b58475, type: 3}
+  description: Wood is stuff that falls down when you hit a tree. Very cool! You
+    get some wood, you can make fire, camp fires, more fire, and more! Fire! Also
+    craft many useful stuff hehe.
+  prefab: {fileID: 4013306990220725202, guid: 612b66e06e82c0348a8bb066a88c0ec7, type: 3}

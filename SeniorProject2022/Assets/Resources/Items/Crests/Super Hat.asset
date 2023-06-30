@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bef828771006bb41b7bbb7bc3d6e102, type: 3}
+  m_Name: Super Hat
+  m_EditorClassIdentifier: 
+  itemName: Mush Hat
+  icon: {fileID: 21300000, guid: b2abed17f356bee44aba90aea6931e38, type: 3}
+  description: Only the best sheep gets to wear this ultimate drip which also grant
+    you the ability to ULTRA RUN. Learn the mushy way.
+  CraftRecipe:
+  - item: {fileID: 11400000, guid: e1ec6e485b3d28e4c8cbf52d434d5c7c, type: 2}
+    amount: 3
+  - item: {fileID: 11400000, guid: 318378037397f0245b7754d90c9cd523, type: 2}
+    amount: 3
+  ability: 3
+  abilityObj: {fileID: 11400000, guid: 3944526eec5498c4bb6ae837d83d257b, type: 2}

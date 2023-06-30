@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="DataFile" id="{d0ec1a98-b3bd-4553-a978-0b16a125869b}">
+		<property name="assetPath">
+			<value>Sound/Footsteps/Gravel/FS_Gravel_02.akd</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3125f4ee-1f57-437b-8fd4-4d1e93032126}</destination>
+		</relationship>
+	</object>
+</objects>

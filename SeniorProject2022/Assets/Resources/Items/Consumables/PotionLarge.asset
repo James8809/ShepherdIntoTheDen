@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f121db5db1c1e648b425a1414f1b990, type: 3}
+  m_Name: PotionLarge
+  m_EditorClassIdentifier: 
+  itemName: Gigachad Potion
+  icon: {fileID: 21300000, guid: a40d25f0441221c4ea57b97a9fe99895, type: 3}
+  description: The largest health potion on the market!! Keep yourself strong and
+    healthy! Heals for 50 HP!
+  CraftRecipe:
+  - item: {fileID: 11400000, guid: f838ea0c08abe7948a2246d1cbbe51ee, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: 4d5da8964e1f04849b5deaa20341113e, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: 8cf2e3fdbd708a24b9efbfe9917c96e6, type: 2}
+    amount: 1
+  statType: 0
+  value: 50
+  duration: -1
+  statIcon: {fileID: 0}
+  circleIconColor: {r: 0, g: 0, b: 0, a: 0}

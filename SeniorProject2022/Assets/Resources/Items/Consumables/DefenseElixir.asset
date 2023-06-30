@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f121db5db1c1e648b425a1414f1b990, type: 3}
+  m_Name: DefenseElixir
+  m_EditorClassIdentifier: 
+  itemName: Defense Elixer
+  icon: {fileID: 21300000, guid: 403006ff1db8c724c9c8de68042b1b8f, type: 3}
+  description: Take less damage for some mega hella wooga. Take 0.75x damage.
+  CraftRecipe:
+  - item: {fileID: 11400000, guid: 812ee4b73b2bf5b4592408603bd91efd, type: 2}
+    amount: 1
+  statType: 3
+  value: 0.75
+  duration: 10
+  statIcon: {fileID: 21300000, guid: 5caf0b26e4409c2469b3f4c35ccc5b7a, type: 3}
+  circleIconColor: {r: 0.19496846, g: 0.4103272, b: 1, a: 1}

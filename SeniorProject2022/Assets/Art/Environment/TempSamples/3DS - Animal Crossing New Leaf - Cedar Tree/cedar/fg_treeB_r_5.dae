@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA version="1.4.1" xmlns="http://www.collada.org/2005/11/COLLADASchema">
+  <asset>
+    <created>2017-01-16T11:53:35Z</created>
+    <modified>2017-01-16T11:53:35Z</modified>
+  </asset>
+  <library_images>
+    <image id="fg_bush_id" name="fg_bush">
+      <init_from>./fg_bush.png</init_from>
+    </image>
+    <image id="myD_dummy_id" name="myD_dummy">
+      <init_from>./myD_dummy.png</init_from>
+    </image>
+    <image id="t_flower_id" name="t_flower">
+      <init_from>./t_flower.png</init_from>
+    </image>
+    <image id="t_treeB_d_id" name="t_treeB_d">
+      <init_from>./t_treeB_d.png</init_from>
+    </image>
+    <image id="t_wild_id" name="t_wild">
+      <init_from>./t_wild.png</init_from>
+    </image>
+    <image id="tex_tane_id" name="tex_tane">
+      <init_from>./tex_tane.png</init_from>
+    </image>
+    <image id="treeA_id" name="treeA">
+      <init_from>./treeA.png</init_from>
+    </image>
+    <image id="treeA2_id" name="treeA2">
+      <init_from>./treeA2.png</init_from>
+    </image>
+    <image id="treeB_id" name="treeB">
+      <init_from>./treeB.png</init_from>
+    </image>
+    <image id="treeC_id" name="treeC">
+      <init_from>./treeC.png</init_from>
+    </image>
+    <image id="treeD_id" name="treeD">
+      <init_from>./treeD.png</init_from>
+    </image>
+    <image id="tree_r_id" name="tree_r">
+      <init_from>./tree_r.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="m_treeA_mat_id" name="m_treeA_mat">
+      <instance_effect url="#eff_m_treeA_id" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="eff_m_treeA_id" name="eff_m_treeA">
+      <profile_COMMON>
+        <newparam sid="img_surface">
+          <surface type="2D">
+            <init_from>tree_r_id</init_from>
+            <format>PNG</format>
+          </surface>
+        </newparam>
+        <newparam sid="img_sampler">
+          <sampler2D>
+            <source>img_surface</source>
+            <wrap_s>MIRROR</wrap_s>
+            <wrap_t>MIRROR</wrap_t>
+            <minfilter>NEAREST_MIPMAP_NEAREST</minfilter>
+            <magfilter>LINEAR</magfilter>
+            <mipfilter>LINEAR</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="img_technique">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="img_sampler" texcoord="uv" />
+            </diffuse>
+            <specular>
+              <color>1 1 1 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="mesh_0__id" name="mesh_0_">
+      <mesh>
+        <source id="mesh_0__position_id" name="mesh_0__position">
+          <float_array id="mesh_0__position_array_id" count="135">9.1288 5.17616 4.04089 10.3357 2.8342 8.50039 9.18598 0.32785 1.52585 7.24487 5.62259 9.85949 9.55695 4.5961 0.410496 5.35984 7.01598 8.43477 8.79003 16 1.20382 5.65711 16 6.71182 11.1913 -3.54891 14.1581 9.70438 1.40123 13.6454 9.03389 8.34879 -4.61231 15.5878 -3.37936 -6.17897 11.558 6.05771 -5.25509 13.7956 2.80275 -5.89788 -0.038785 16 8.5549 1.64739 4.37404 9.26171 6.03241 1.71418 12.4439 8.24294 16 -4.92119 -1.64837 4.37404 9.26171 -5.36082 7.01598 8.43477 -6.09318 16 6.71182 -0.000488281 -0.229719 8.25056 -8.81097 5.17616 4.01011 -8.86141 16 1.20382 -6.03339 1.71418 12.4439 -7.24584 5.62259 9.85949 -9.2491 4.5961 0.410496 -9.41562 8.34879 -4.61231 -8.79405 16 -4.39061 -11.1923 -3.54891 14.1581 -10.3367 2.15125 8.50039 -9.70535 1.40123 13.6454 -11.8202 6.05771 -5.25509 -9.25495 0.179189 1.52585 -13.7966 2.80275 -5.89788 -15.5888 -3.37936 -6.17897 8.24294 16 -4.92119 -8.86141 16 1.20382 8.79003 16 1.20382 -8.79405 16 -4.39061 -6.74689 16 -10.6596 6.19577 16 -10.8365 -6.09318 16 6.71182 5.65711 16 6.71182 -0.038785 16 8.5549</float_array>
+          <technique_common>
+            <accessor source="#mesh_0__position_array_id" count="45" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesh_0__normal_id" name="mesh_0__normal">
+          <float_array id="mesh_0__normal_array_id" count="135">0.9291338 0.2992126 0.2283465 0.9212598 0.3779528 0.06299213 0.992126 0.03937008 0.1023622 0.2598425 0.7716535 0.5826772 0.9212598 0.2283465 0.3149606 0.3779528 0.4173228 0.8267717 0.984252 0.07874016 0.1653543 0.6220472 0.1023622 0.7795275 0.519685 0.03149606 0.8582677 0.3858268 0.527559 0.7559055 0.9527559 0.2834646 0.09448819 0.8188976 0.1574803 0.5590551 -0.6377953 0.09448819 0.7637795 0.8188976 0.3464567 0.4566929 0 0.1102362 0.992126 -0.1496063 0.1968504 0.968504 -0.3937008 0.2125984 0.8976378 0.992126 0.06299213 -0.1102362 0.1496063 0.1968504 0.968504 -0.3858268 0.4015748 0.8267717 -0.6377953 0.09448819 0.7637795 0 -0.1417323 0.992126 -0.9370078 0.2913386 0.2047244 -0.976378 0.07086614 0.1889764 0.3937008 0.2125984 0.8976378 -0.2992126 0.7637795 0.5669291 -0.9133858 0.2125984 0.3464567 -0.9527559 0.2440945 0.1811024 -1 0.07086614 -0.04724409 -0.527559 0.03937008 0.8503937 -0.9291338 0.3622047 0.03149606 -0.4251969 0.527559 0.7322835 -0.7401575 0.488189 0.4645669 -0.992126 0.09448819 0.09448819 -0.8110236 0.3070866 0.496063 -0.8110236 0.1811024 0.5590551 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#mesh_0__normal_array_id" count="45" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesh_0__uv0_id" name="mesh_0__uv0">
+          <float_array id="mesh_0__uv0_array_id" count="90">0.758079 0.0885653 0.726442 0.0540844 0.827033 0.0426788 0.641385 0.0833646 0.840788 0.0840981 0.605046 0.099651 0.799911 0.157596 0.62113 0.157596 0.693812 0.0153937 0.668422 0.0472129 0.958708 0.109107 0.95939 0.00110115 0.95665 0.0921614 0.95939 0.0559159 0.477471 0.157596 0.525163 0.0816746 0.603992 0.0559505 0.948896 0.156892 0.444521 0.0816746 0.364637 0.099651 0.333536 0.157596 0.487044 0.0531164 0.211248 0.0885653 0.163194 0.157596 0.365691 0.0559505 0.328299 0.0833646 0.128896 0.0840981 0.0109758 0.109107 0.0186067 0.156892 0.275872 0.0153937 0.243242 0.0540844 0.301262 0.0472129 0.0130337 0.0921614 0.14265 0.0426788 0.0102934 0.0559159 0.0102934 0.00110115 0.727787 0.40415 0.253817 0.359321 0.742947 0.359321 0.255683 0.40031 0.312411 0.445037 0.671058 0.446316 0.330526 0.31946 0.656132 0.31946 0.498296 0.306121</float_array>
+          <technique_common>
+            <accessor source="#mesh_0__uv0_array_id" count="45" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesh_0__color_id" name="mesh_0__color">
+          <float_array id="mesh_0__color_array_id" count="180">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#mesh_0__color_array_id" count="45" stride="4">
+              <param name="R" type="float" />
+              <param name="G" type="float" />
+              <param name="B" type="float" />
+              <param name="A" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="mesh_0__vertices_id">
+          <input semantic="POSITION" source="#mesh_0__position_id" />
+        </vertices>
+        <triangles material="m_treeA" count="57">
+          <input semantic="VERTEX" source="#mesh_0__vertices_id" offset="0" />
+          <input semantic="NORMAL" source="#mesh_0__normal_id" offset="0" />
+          <input semantic="COLOR" source="#mesh_0__color_id" offset="0" />
+          <input semantic="TEXCOORD" source="#mesh_0__uv0_id" offset="0" set="0" />
+          <p>0 1 2 0 3 1 0 2 4 0 5 3 0 4 6 0 7 5 0 6 7 1 8 2 1 3 9 1 9 8 4 10 6 4 2 11 4 12 10 4 11 13 4 13 12 5 7 14 5 15 3 5 14 15 9 16 8 9 3 16 3 15 16 6 10 17 14 18 15 14 19 18 14 20 19 8 16 21 15 18 21 15 21 16 20 22 19 20 23 22 18 24 21 18 19 25 18 25 24 19 22 25 23 26 22 23 27 26 23 28 27 21 24 29 25 22 30 25 31 24 25 30 31 31 30 29 31 29 24 26 27 32 26 33 22 26 32 34 26 35 33 26 34 35 33 30 22 33 29 30 36 37 38 36 39 37 36 40 39 36 41 40 38 37 42 38 42 43 42 44 43</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="vs_fg_treeB_r_5_id" name="vs_fg_treeB_r_5">
+      <node id="vsn_mesh_0__id" name="vsn_mesh_0_" type="NODE">
+        <matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#mesh_0__id">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="m_treeA" target="#m_treeA_mat_id" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#vs_fg_treeB_r_5_id" />
+  </scene>
+</COLLADA>

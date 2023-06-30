@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f121db5db1c1e648b425a1414f1b990, type: 3}
+  m_Name: AttackElixir
+  m_EditorClassIdentifier: 
+  itemName: Attack Elixer
+  icon: {fileID: 21300000, guid: 8124dd4ca18043c449c0d7c6681af399, type: 3}
+  description: YOU BECOME HELLA BUFFED!!! 2x your attack for 10 seconds.
+  CraftRecipe:
+  - item: {fileID: 11400000, guid: 812ee4b73b2bf5b4592408603bd91efd, type: 2}
+    amount: 1
+  statType: 1
+  value: 2
+  duration: 10
+  statIcon: {fileID: 21300000, guid: 39a76629c855da84b93b2ce327f3f66c, type: 3}
+  circleIconColor: {r: 1, g: 0.28175125, b: 0.20392156, a: 1}

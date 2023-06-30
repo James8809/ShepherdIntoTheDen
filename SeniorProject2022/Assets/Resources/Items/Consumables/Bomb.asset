@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c839029ae7b4d56b8a94322971d0ea0, type: 3}
+  m_Name: Bomb
+  m_EditorClassIdentifier: 
+  itemName: Bombie
+  icon: {fileID: 21300000, guid: 96fac6bcb37406f45aac889d03f1ec1c, type: 3}
+  description: This bomb is pretty cool, it does big damage on big enemies. Bomb
+    go BOOM. Dealing 100 dmg on blast hit.
+  CraftRecipe:
+  - item: {fileID: 11400000, guid: efd1f222249c08e47a5288931c607424, type: 2}
+    amount: 2
+  - item: {fileID: 11400000, guid: 812ee4b73b2bf5b4592408603bd91efd, type: 2}
+    amount: 1
+  type: 1
+  throwablePrefab: {fileID: 5820817927697735671, guid: 8b73873d1d67c6a4b8f30a28a87921ed, type: 3}

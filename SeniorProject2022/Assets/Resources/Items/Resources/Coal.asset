@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba1fd1935c59ee142aeed6f7ff8d328e, type: 3}
+  m_Name: Coal
+  m_EditorClassIdentifier: 
+  itemName: Coal
+  icon: {fileID: 21300000, guid: 6945a7f994f4efa47a5de665dffaeab9, type: 3}
+  description: Just a black rock??!!
+  prefab: {fileID: 4013306990220725202, guid: 612b66e06e82c0348a8bb066a88c0ec7, type: 3}
